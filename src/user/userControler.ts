@@ -20,7 +20,7 @@ export default class UserControler {
         //api/user/login
         this.router.post('/api/user/login', (req, res) => {
             if (
-                req.body.username == 'sh008' &&
+                req.body.username == 'hero' &&
                 req.body.password == 'password'
             ) {
                 //create token
